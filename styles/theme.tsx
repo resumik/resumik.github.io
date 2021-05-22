@@ -18,6 +18,9 @@ const theme = createMuiTheme({
         h1: {
           margin: 0,
           fontFamily: 'Montserrat',
+          fontSize: 46,
+          lineHeight: '46px',
+          letterSpacing: -2
         },
       },
     },
