@@ -4,6 +4,7 @@ import useIndexStyles from '../styles/Index.styles'
 import { react as IndexContent } from '../content/index.md'
 import useEnv from '../shared/hooks/useEnv'
 import { primaryColor, secondaryColor } from '../styles/constants'
+import Button from '../shared/components/Button'
 
 const Index: React.FC = () => {
   const styles = useIndexStyles()
@@ -26,6 +27,7 @@ const Index: React.FC = () => {
             bgColor={primaryColor}
             fgColor={secondaryColor}
           />
+          <Button>cze</Button>
         </footer>
       </div>
     </div>
