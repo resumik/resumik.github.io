@@ -23,6 +23,11 @@ const useIndexStyles = makeStyles((theme: Theme) =>
     contents: {
       fontStyle: 'italic'
     },
+    social: {
+      '& > *:not(:last-child)': {
+        marginRight: 10
+      }
+    },
     repoIcon: {
       width: '35px !important',
       height: '35px !important',

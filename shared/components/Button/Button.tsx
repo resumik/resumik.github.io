@@ -4,8 +4,8 @@ import useButtonStyles from './Button.styles'
 
 interface ButtonProps {}
 
-export const Button: React.FC<ButtonProps> = () => {
+export const Button: React.FC<ButtonProps> = ({ children }) => {
   const styles = useButtonStyles()
 
-  return <ButtonBase className={styles.root}>cze</ButtonBase>
+  return <ButtonBase className={styles.root}>{children}</ButtonBase>
 }

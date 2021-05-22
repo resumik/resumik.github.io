@@ -19,14 +19,10 @@ const Index: React.FC = () => {
         <main className={styles.contents}>
           <IndexContent />
         </main>
-        <footer>
-          <SocialIcon
-            url={env.githubRepo}
-            network="github"
-            className={styles.repoIcon}
-            bgColor={primaryColor}
-            fgColor={secondaryColor}
-          />
+        <footer className={styles.social}>
+          <a href={env.githubRepo}>
+            <Button>GitHub</Button>
+          </a>
           <Button>cze</Button>
         </footer>
       </div>
