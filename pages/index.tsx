@@ -1,7 +1,7 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 import useIndexStyles from '../styles/Index.styles'
-import { react as IndexContent } from '../content/index.md'
+import index from '../content/index.md'
 import useEnv from '../shared/hooks/useEnv'
 import { primaryColor, secondaryColor } from '../styles/constants'
 import Button from '../shared/components/Button'
@@ -9,6 +9,10 @@ import Button from '../shared/components/Button'
 const Index: React.FC = () => {
   const styles = useIndexStyles()
   const env = useEnv()
+  const {
+    html,
+    attributes: { designDocumentUrl },
+  } = index
 
   return (
     <div className={styles.root}>
@@ -16,14 +20,17 @@ const Index: React.FC = () => {
         <header className={styles.header}>
           <h1>{env.appName}</h1>
         </header>
-        <main className={styles.contents}>
-          <IndexContent />
-        </main>
+        <main
+          className={styles.contents}
+          dangerouslySetInnerHTML={{ __html: html }}
+        ></main>
         <footer className={styles.social}>
           <a href={env.githubRepo}>
             <Button>GitHub</Button>
           </a>
-          <Button>cze</Button>
+          <a href={designDocumentUrl}>
+            <Button>Design document</Button>
+          </a>
         </footer>
       </div>
     </div>

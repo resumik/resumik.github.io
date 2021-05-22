@@ -9,10 +9,10 @@ const useButtonStyles = makeStyles((theme: Theme) =>
       fontFamily: 'Raleway, sans-serif',
       fontSize: 12,
       border: '1px solid gray',
-
       '&:hover': {
         backgroundColor: primaryColor,
-        color: secondaryColor
+        color: secondaryColor,
+        border: `1px solid ${primaryColor}`,
       },
     },
   })
