@@ -7,9 +7,12 @@ export const withDocs = (Component: React.FC) => (props) => {
 
   return (
     <div className={styles.root}>
-      <Sidebar />
-      <Component />
+      <div className={styles.sidebar}>
+        <Sidebar />
+      </div>
+      <div className={styles.content}>
+        <Component />
+      </div>
     </div>
   )
 }
-
