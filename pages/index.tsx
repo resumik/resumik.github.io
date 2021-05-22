@@ -1,24 +1,25 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
-import { githubRepo } from '../env'
 import useIndexStyles from '../styles/Index.styles'
+import { react as IndexContent } from '../content/index.md'
+import useEnv from '../shared/hooks/useEnv'
 
 const Index: React.FC = () => {
   const styles = useIndexStyles()
+  const env = useEnv()
 
   return (
     <div className={styles.root}>
       <div className={styles.wrapper}>
         <header className={styles.header}>
-          <h1>Resumik</h1>
+          <h1>{env.appName}</h1>
         </header>
         <main className={styles.contents}>
-            The soon-to-be state-of-the-art open-source hyphens-overload resume
-            generator.
+          <IndexContent />
         </main>
         <footer>
           <SocialIcon
-            url={githubRepo}
+            url={env.githubRepo}
             network="github"
             className={styles.repoIcon}
           />
