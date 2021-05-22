@@ -12,8 +12,11 @@ const theme = createMuiTheme({
           height: '100%',
         },
         html: {
-          height: '100%'
-        }
+          height: '100%',
+        },
+        h1: {
+          margin: 0,
+        },
       },
     },
   },

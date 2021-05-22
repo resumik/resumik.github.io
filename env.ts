@@ -1,0 +1,1 @@
+export const githubRepo = 'https://github.com/resumik/resumik'
