@@ -8,10 +8,14 @@ const theme = createMuiTheme({
     MuiCssBaseline: {
       '@global': {
         body: {
-          backgroundColor: secondaryColor
+          backgroundColor: secondaryColor,
+          height: '100%',
+        },
+        html: {
+          height: '100%'
         }
-      }
-    }
+      },
+    },
   },
   palette: {
     primary: {

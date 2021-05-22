@@ -3,9 +3,9 @@ import useIndexStyles from '../styles/Index.styles'
 
 const Index: React.FC = () => {
   const styles = useIndexStyles()
-  
+
   return (
-    <>
+    <div className={styles.root}>
       <header>
         <h1>Resumik</h1>
       </header>
@@ -23,7 +23,7 @@ const Index: React.FC = () => {
           </ul>
         </div>
       </main>
-    </>
+    </div>
   )
 }
 
