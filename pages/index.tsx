@@ -15,7 +15,7 @@ const Index: React.FC = () => {
           generator.
         </div>
         <div>
-          GitHub is our home. We use it for a plethora of things:
+          We call GitHub our home. We use it for a plethora of things:
           <ul>
             <li>Commiting code</li>
             <li>Organizing work</li>
