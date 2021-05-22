@@ -1,1 +1,5 @@
-export const secondaryColor = 'pink'
+export const secondaryColor = '#CEC4B8'
+export const primaryColor = '#102540'
+export const backgroundColor = '#F2F2F2'
+// export const color3 = '#737979'
+// export const color5 = '#BFBFBF'

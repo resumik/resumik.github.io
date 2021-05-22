@@ -1,4 +1,5 @@
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles'
+import { secondaryColor } from './constants'
 
 
 const useIndexStyles = makeStyles((theme: Theme) =>

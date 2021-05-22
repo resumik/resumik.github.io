@@ -3,6 +3,7 @@ import { SocialIcon } from 'react-social-icons'
 import useIndexStyles from '../styles/Index.styles'
 import { react as IndexContent } from '../content/index.md'
 import useEnv from '../shared/hooks/useEnv'
+import { primaryColor, secondaryColor } from '../styles/constants'
 
 const Index: React.FC = () => {
   const styles = useIndexStyles()
@@ -22,6 +23,8 @@ const Index: React.FC = () => {
             url={env.githubRepo}
             network="github"
             className={styles.repoIcon}
+            bgColor={primaryColor}
+            fgColor={secondaryColor}
           />
         </footer>
       </div>

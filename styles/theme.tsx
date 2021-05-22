@@ -1,16 +1,17 @@
-import { createMuiTheme } from '@material-ui/core/styles'
-import purple from '@material-ui/core/colors/purple'
 import green from '@material-ui/core/colors/green'
-import { secondaryColor } from './constants'
+import purple from '@material-ui/core/colors/purple'
+import { createMuiTheme } from '@material-ui/core/styles'
+import { backgroundColor, primaryColor } from './constants'
 
 const theme = createMuiTheme({
   overrides: {
     MuiCssBaseline: {
       '@global': {
         body: {
-          backgroundColor: secondaryColor,
+          backgroundColor: backgroundColor,
           height: '100%',
           fontFamily: 'Raleway, sans-serif',
+          color: primaryColor,
         },
         html: {
           height: '100%',
@@ -20,7 +21,7 @@ const theme = createMuiTheme({
           fontFamily: 'Montserrat',
           fontSize: 46,
           lineHeight: '46px',
-          letterSpacing: -2
+          letterSpacing: -2,
         },
       },
     },
