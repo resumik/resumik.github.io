@@ -10,12 +10,14 @@ const theme = createMuiTheme({
         body: {
           backgroundColor: secondaryColor,
           height: '100%',
+          fontFamily: 'Raleway, sans-serif',
         },
         html: {
           height: '100%',
         },
         h1: {
           margin: 0,
+          fontFamily: 'Montserrat',
         },
       },
     },
