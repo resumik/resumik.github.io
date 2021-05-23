@@ -27,6 +27,7 @@ export default class Document extends DocumentBase {
     return (
       <Html lang="en">
         <Head>
+          <title>{process.env.appName}</title>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
             href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
