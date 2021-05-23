@@ -8,6 +8,10 @@ We do our best to make Resumik powerful. We are confident that when it comes to 
 
 As a result, you are able to tweak many aspects of your resume (and the application itself), including creating your own templates (although this requires being knowledgable about HTML, CSS and YAML). We aim to provice both CLI and GUI interfaces, to best match your needs.
 
+## Supports Great Artists
+
+Let's face it - we have a little in common with graphics. We program and manage, but that's pretty much sums it up. We're aware of that - and aware of options available to us. Back in the days, we discovered [Adobe Stock](https://stock.adobe.com/). If you search for `cv` or `resume`, you'll find lots of great looking documents. 
+
 ## Simple
 
 Making the user experience as straightforward as possible is one of our main concerns. With all the possibilites at your disposal, it's easy to get lost. We work hard on ensuring that creating a resume of your dreams is as pain-free as possible.

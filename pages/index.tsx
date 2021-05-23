@@ -1,10 +1,9 @@
+import Link from 'next/link'
 import React from 'react'
-import { SocialIcon } from 'react-social-icons'
-import useIndexStyles from '../styles/Index.styles'
 import index from '../content/index.md'
+import { AnchorButton, Button } from '../shared/components/Button/Button'
 import useEnv from '../shared/hooks/useEnv'
-import { primaryColor, secondaryColor } from '../styles/constants'
-import Button from '../shared/components/Button'
+import useIndexStyles from '../styles/Index.styles'
 
 const Index: React.FC = () => {
   const styles = useIndexStyles()
@@ -28,9 +27,9 @@ const Index: React.FC = () => {
           <a href={env.githubRepo}>
             <Button>GitHub</Button>
           </a>
-          <a href={designDocumentUrl}>
-            <Button>Design document</Button>
-          </a>
+          <Link href="/design" passHref>
+            <AnchorButton>Design document</AnchorButton>
+          </Link>
         </footer>
       </div>
     </div>
