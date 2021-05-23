@@ -1,6 +1,6 @@
 - Core
     - [Design](design)
-    - [Tech Stack](design/stack)
+    - [Tech Stack](design/tech-stack)
     - [Contributors](design/contributors)
     - [Who Uses It?](design/who-uses-it)
 - Concepts
