@@ -1,9 +1,9 @@
 import React from 'react'
-import index from '../../content/design/tech-stack.md'
+import content from '../../content/design/tech-stack.md'
 import withDocs from '../../shared/hoc/withDocs'
 
 const TechStack = () => {
-  const { html } = index
+  const { html } = content
   return <div dangerouslySetInnerHTML={{ __html: html }} />
 }
 
