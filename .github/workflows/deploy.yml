@@ -14,7 +14,8 @@ jobs:
         run: |
           yarn
           yarn global add next
-          next build && next export
+          yarn next build
+          yarn next export
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.3
