@@ -2,7 +2,6 @@
     - [Design](design)
     - [Tech Stack](design/tech-stack)
     - [Contributors](design/contributors)
-    - [Who Uses It?](design/who-uses-it)
 - Concepts
     - [Versioning](design/concepts/versioning)
     - [Template](design/concepts/template)
