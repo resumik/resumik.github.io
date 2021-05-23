@@ -1,15 +1,11 @@
 import dynamic from 'next/dynamic'
 import React from 'react'
 import withDocs from '../../shared/hoc/withDocs'
-
-const TechStack = dynamic(() => import('../../src/docs/TechStack'))
+import index from '../../content/design/index.md'
 
 const Design = () => {
-  return (
-    <div>
-      design
-    </div>
-  )
+  const { html } = index
+  return <div dangerouslySetInnerHTML={{ __html: html }} />
 }
 
 export default withDocs(Design)

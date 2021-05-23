@@ -1,0 +1,16 @@
+- Core
+    - [Design](design)
+    - [Tech Stack](design/stack)
+    - [Contributors](design/contributors)
+    - [Who Uses It?](design/who-uses-it)
+- Concepts
+    - [Versioning](design/concepts/versioning)
+    - [Template](design/concepts/template)
+    - [Theme](design/concepts/theme)
+    - [Save](design/concepts/save)
+    - [Config](design/concepts/config)
+    - [Profile](design/concepts/profile)
+    - [I18n](design/concepts/i18n)
+- Interfaces
+    - [GUI](design/interfaces/gui)
+    - [CLI](design/interfaces/cli)

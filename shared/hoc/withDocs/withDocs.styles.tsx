@@ -5,14 +5,19 @@ const useWithDocsStyles = makeStyles((theme: Theme) =>
     root: {
       display: 'grid',
       gridTemplateAreas: '"sidebar content"',
-      gridAutoColumns: '1fr 3fr'
+      gridAutoColumns: 'minmax(100px, 200px) minmax(200px, 600px)',
+      height: '100vh',
     },
     sidebar: {
       gridArea: 'sidebar',
+      borderRight: '1px solid lightgray',
+      padding: theme.spacing(8),
     },
     content: {
-      gridArea: 'content'
-    }
+      padding: theme.spacing(8),
+      gridArea: 'content',
+      textAlign: 'justify',
+    },
   })
 )
 

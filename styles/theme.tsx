@@ -1,9 +1,15 @@
 import green from '@material-ui/core/colors/green'
 import purple from '@material-ui/core/colors/purple'
 import { createMuiTheme } from '@material-ui/core/styles'
-import { backgroundColor, primaryColor } from './constants'
+import {
+  accentColor,
+  backgroundColor,
+  primaryColor,
+  primaryLightColor,
+} from './constants'
 
 const theme = createMuiTheme({
+  spacing: 4,
   overrides: {
     MuiCssBaseline: {
       '@global': {
@@ -23,17 +29,18 @@ const theme = createMuiTheme({
           lineHeight: '46px',
           letterSpacing: -2,
         },
+        a: {
+          color: accentColor,
+          fontWeight: 'bolder',
+          textDecoration: 'none',
+        },
+        ul: {
+          margin: 0,
+        },
       },
     },
   },
-  palette: {
-    primary: {
-      main: purple[500],
-    },
-    secondary: {
-      main: green[500],
-    },
-  },
+  palette: {},
 })
 
 export default theme
