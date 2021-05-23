@@ -13,7 +13,7 @@ jobs:
       - name: Install and Build 🔧 
         run: |
           yarn
-          yarn global install next
+          yarn global add next
           next build && next export
 
       - name: Deploy 🚀
