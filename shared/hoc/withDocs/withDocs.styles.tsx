@@ -7,6 +7,9 @@ const useWithDocsStyles = makeStyles((theme: Theme) =>
       gridTemplateAreas: '"sidebar content"',
       gridAutoColumns: 'minmax(100px, 200px) minmax(200px, 600px)',
       height: '100vh',
+      '& h1': {
+        fontSize: 32
+      }
     },
     sidebar: {
       gridArea: 'sidebar',
