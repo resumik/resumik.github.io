@@ -4,8 +4,6 @@ Open Resume wouldn't exist if it wasn't for people behind it. We wholeheartly th
 
 # Core Team
 
-
-
 ### Bartosz Konikiewicz
 
 ### Todor Bogosavljević
