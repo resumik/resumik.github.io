@@ -10,7 +10,7 @@ As a result, you are able to tweak many aspects of your resume (and the applicat
 
 ## Supports Great Artists
 
-Let's face it - we have a little in common with graphics. We program and manage, but that's pretty much sums it up. We're aware of that - and aware of options available to us. Back in the days, we discovered [Adobe Stock](https://stock.adobe.com/). If you search for `cv` or `resume`, you'll find lots of great looking documents. 
+Let's face it - we have a little in common with graphics. We program and manage stuff, but that's pretty much sums it up. We're aware of that - and aware of options available to us. Back in the days, we discovered [Adobe Stock](https://stock.adobe.com/). If you search for `cv` or `resume`, you'll find lots of great looking documents. 
 
 ## Simple
 
