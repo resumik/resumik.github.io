@@ -1,6 +1,6 @@
 - Core
     - [Design](/design)
-    - [Tech Stack](/design/tech-stack)
+    - [Tech Stack](/tech-stack)
 - Concepts
     - [Versioning](/design/concepts/versioning)
     - [Template](/design/concepts/template)
